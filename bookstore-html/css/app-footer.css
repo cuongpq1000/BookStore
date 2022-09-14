@@ -8,6 +8,33 @@ footer {
   padding: 10px;
 }
 
+.col1, .col2, .col3{
+  width: 33.3%;
+  float: left;
+  margin: 10px;
+}
+
+.connect{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.individual-icons{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.icon-envelope{
+  margin-left: 20%;
+}
+.test{
+  padding-left: 10%;
+}
 
 .links,
 .social-media-icons {
@@ -15,9 +42,48 @@ footer {
   flex-direction: column;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.8);
+  column-count: 3;
+
+}
+
+.Connect{
+  position: relative;
+  right: 300px;
 }
 
 .social-media-icons {
   text-align: center;
   gap: 0.25em;
 }
+
+.col2{
+  padding-top: 15px;
+  
+}
+.word{
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.col3{
+  text-align: right;
+}
+.column3-top{
+  padding-right: 20%;
+  padding-top: 5%;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter';
+  font-style: normal; 
+}
+
+.column3-bottom{
+  padding-top: 3%;
+  padding-right: 2%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+

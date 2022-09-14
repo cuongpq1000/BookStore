@@ -27,8 +27,9 @@
 
   <body>
     <main>
-      <header class="container">
-        <section class="bookstore-logo">
+      <header class="navbar">
+        <button>cart</button>
+        <button>user</button>
           <a href="index.html">
             <img
               src="images/site/bookstore-logo.png"
@@ -37,19 +38,13 @@
               height="auto"
             />
           </a>
-        </section>
-        <section class="title-and-search-bar">
           <h1 class="text-logo">Another Bookstore</h1>
           <form action="category.html">
             <input type="text" class="search-bar" /><br />
             <input type="submit" class="button search-button" value="Search" />
           </form>
-        </section>
-        <section class="header-dropdown-and-cart">
-          <button class="button">cart (0)</button>
-          <button class="button">login</button>
           <div class="header-dropdown">
-            <button class="button categories-button">Categories</button>
+            <button class="dropdown-btn">Categories</button>
             <ul>
               <li><a href="category.html?category=Classics">Classics</a></li>
               <li><a href="category.html?category=Fantasy">Fantasy</a></li>
@@ -57,7 +52,6 @@
               <li><a href="category.html?category=Romance">Romance</a></li>
             </ul>
           </div>
-        </section>
       </header>
       <div class="category-page">
         <nav class="category-nav">

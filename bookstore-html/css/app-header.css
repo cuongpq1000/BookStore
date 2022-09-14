@@ -4,10 +4,29 @@ header {
   padding: 1em;
   gap: 1em;
 }
-.section{
+.title-and-search-bar{
   margin-left: 5%;
+  width: 500px;
 }
+.category{
+  box-sizing: border-box;
+  width: 120px;
+  height: 35px;
+  left: 556px;
+  top: 14px;
 
+  background: #87CEFA;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.header-dropdown-and-nav{
+  display: flex;
+  width: 100%;
+}
+.shop-now{
+  background: #87CEFA;
+  float: right;
+}
 .head .text-logo {
   font-family: 'Inter';
   font-size: 30px;
@@ -53,6 +72,10 @@ header {
   border: none;
   color: #000000;
   margin-top: 1%;
+}
+.category:hover {
+  background-color: white;
+  cursor: pointer;
 }
 .search-button{
   padding: 0;
