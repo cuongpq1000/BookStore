@@ -1,0 +1,43 @@
+.header-dropdown {
+  position: relative;
+}
+
+.categories-button {
+  background-color: #87CEFA;
+  margin-top: 0.25em;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  color: #000000;
+}
+
+.header-dropdown ul {
+  background-color: white;
+  color: black;
+  display: none;
+}
+
+.header-dropdown li {
+  padding: 0.25em 0.5em;
+}
+
+.header-dropdown a {
+  color: black;
+  text-decoration: none;
+}
+.login{
+  display: flex;
+  justify-content: flex-end;
+}
+.header-dropdown li:hover {
+  background: lightgray;
+}
+
+.header-dropdown:hover ul {
+  display: block;
+  position: absolute;
+  min-width: 8em;
+  z-index: 1;
+  cursor: pointer;
+}
