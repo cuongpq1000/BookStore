@@ -8,8 +8,8 @@
     <!-- Import font-awesome icons -->
     <link
       href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- order of CSS files is important (this is the "Cascade" part of CSS) -->
 
@@ -28,23 +28,24 @@
   <body>
     <main>
       <header class="navbar">
-        <button>cart</button>
-        <button>user</button>
+        <i class="icon-user icon"></i>
+        <i class="icon-shopping-cart icon"></i>
+        <h1 class="cart">(0)</h1>
+          <h1 class="text-logo">Viet Library</h1>
           <a href="index.html">
             <img
               src="images/site/bookstore-logo.png"
               alt="Another Bookstore Logo"
-              width="150px"
+              width="100px"
               height="auto"
             />
           </a>
-          <h1 class="text-logo">Another Bookstore</h1>
           <form action="category.html">
-            <input type="text" class="search-bar" /><br />
+            <input type="text" class="search-bar" style="width: 289px" placeholder="Search by Title, Author"/>
             <input type="submit" class="button search-button" value="Search" />
           </form>
           <div class="header-dropdown">
-            <button class="dropdown-btn">Categories</button>
+            <button class="dropdown-btn">Categories <i class="icon-caret-down"></i></button>
             <ul>
               <li><a href="category.html?category=Classics">Classics</a></li>
               <li><a href="category.html?category=Fantasy">Fantasy</a></li>
@@ -133,16 +134,27 @@
           </ul>
         </section>
       </div>
-      <footer class="container">
-        <section class="links">
-          <a href="index.html">about</a>
-          <a href="index.html">contact</a>
-          <a href="index.html">directions</a>
-        </section>
-        <section class="social-media-icons">
-          <a class="button" href="index.html">Facebook</a>
-          <a class="button" href="index.html">Twitter</a>
-        </section>
+      <footer class="footer-container">
+        <div class="col1">
+          <h1 class="connect">Connect with us</h1>
+          <div class = "individual-icons">
+            <i class="icon-envelope"></i>
+            <i class="icon-facebook-sign test"></i> 
+            <i class="icon-instagram test"></i>
+            <i class="icon-twitter test"></i>
+          </div>
+        </div>
+        <div class="col2">
+            <a class="word" href="index.html">Home</a>
+            <a class="word" href="index.html">Category</a>
+            <a class="word" href="index.html">Contacts</a>
+        </div>
+        <div class="col3">
+          
+          <h1 class="column3-top">Viet Library</h1>
+          <h1 class="column3-bottom">Copyright <i class="fa fa-copyright"></i>  2022 Viet Library</h1>
+          
+        </div>
       </footer>
     </main>
   </body>
